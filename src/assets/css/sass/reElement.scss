@@ -1,0 +1,80 @@
+.el-table--border {
+  thead {
+    th {
+      background-color: #f5f7fa;
+    }
+  }
+}
+
+.el-table {
+  .cell {
+    span:empty:after {
+      content: '暂无数据';
+      font-size: 14px;
+      color: #ccc;
+    }
+  }
+}
+
+.el-dropdown-link {
+  cursor: pointer;
+  color: #409EFF;
+}
+
+.el-message-box {
+  border: none !important;
+  background-color: #090d21 !important;
+  border: 1px solid #2c58a6 !important;
+  box-shadow: 0 0 10px #2c58a6 !important;
+
+  .el-message-box__title {
+    color: #fff !important;
+  }
+
+  .el-message-box__content {
+    color: #fff !important;
+
+    .msg-item {
+      padding: 8px 5px;
+      border-bottom: 1px solid #30356a;
+    }
+  }
+
+  .el-button {
+    color: #e2e2e2;
+    background-color: #0a1622 !important;
+    border-color: #1e4f82 !important;
+
+    &:hover {
+      color: #409EFF;
+    }
+  }
+}
+
+.full-loading {
+  .el-loading-spinner {
+    .path {
+      stroke: #1674d5 !important;
+    }
+
+    .el-loading-text {
+      color: #1674d5 !important;
+    }
+  }
+}
+
+.el-loading-spinner {
+  .path {
+    stroke: rgb(255, 208, 75) !important;
+  }
+
+  .el-loading-text {
+    color: rgb(255, 208, 75) !important;
+  }
+}
+
+.el-input__inner {
+  &.el-date-editor {
+    line-height: 25px;
+  }
+}
